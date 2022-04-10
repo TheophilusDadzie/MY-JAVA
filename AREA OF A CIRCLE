@@ -1,0 +1,18 @@
+package Assignment;
+import java.util.Scanner;
+
+    public class AreaofaCircle {
+        public static void main(String[] args) {
+            // Area of a circle
+            // Area = pi * r^2
+        final double PI = 3.1428, area;
+        int r;
+
+        System.out.println("Enter radius of circle");
+        Scanner radius = new Scanner(System.in);
+        r = radius.nextInt();
+
+        area = PI * Math.pow(r, 2);
+        System.out.println("Area of circle "+area);
+        }
+    }
